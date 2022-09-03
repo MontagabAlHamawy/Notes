@@ -1,0 +1,134 @@
+:root {
+    --color: rgb(160, 220, 20);
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+}
+
+.cont {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(151, 146, 146);
+    width: 500px;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.cont .in {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 30px;
+    color: rgb(81, 84, 85);
+    font-size: 20px;
+}
+
+.cont .p {
+    background-color: var(--color);
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+.co {
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(151, 146, 146);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.co .conte {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.co .conte .p2 {
+    font-size: 20px;
+}
+
+.co .conte .p3 {
+    background-color: var(--color);
+    width: 50px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.co .k {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    opacity: 0.7;
+    display: flex;
+}
+
+.cont .in:visited {
+    border: none;
+}
+
+.co .done {
+    /* background-color: rgb(202 207 207); */
+    opacity: 0.5;
+}
+
+@media (max-width:610px) {
+    .cont {
+        width: 300px;
+    }
+
+    .cont .in {
+        width: 170px;
+    }
+
+    .cont .p {
+        width: 80px;
+        font-size: 15px;
+    }
+
+    .co {
+        width: 300px;
+        padding: 10px 20px;
+    }
+
+    .co .conte {
+        height: 50px;
+    }
+
+    .co .conte .p2 {
+        font-size: 17px;
+    }
+
+
+}
