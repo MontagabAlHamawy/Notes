@@ -87,6 +87,7 @@ body {
 .co .k {
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
     color: white;
     font-size: 15px;
